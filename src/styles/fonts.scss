@@ -1,0 +1,21 @@
+@mixin roboto-100 {
+  font-family: Roboto, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@mixin great-vibes-400 {
+  font-family: "Cormorant Infant", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin cormorant-infant-400 {
+  font-family: "Cormorant Infant", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
