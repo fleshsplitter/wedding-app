@@ -1,9 +1,13 @@
+/* eslint-disable import/extensions */
 /* eslint-disable max-len */
 import clsx from 'clsx';
 
 import {
   IconDinner, IconPin, IconRings, IconStar,
 } from '@/assets/icons';
+import photo1 from '@/assets/photo1.jpeg';
+import photo4 from '@/assets/photo4.jpeg';
+import photo5 from '@/assets/photo5.jpeg';
 
 import styles from './TopSection.module.scss';
 
@@ -52,7 +56,7 @@ export const TopSection = () => (
       </div>
 
       <div className={styles.image}>
-        <img src="src/assets/photo1.jpeg" alt="" className={styles.firstImage} />
+        <img src={photo1} alt="" className={styles.firstImage} />
 
         <IconStar className={styles.imageIcon} />
       </div>
@@ -173,7 +177,7 @@ export const TopSection = () => (
         </div>
 
         <div className={styles.image}>
-          <img src="src/assets/photo4.jpeg" alt="" className={styles.firstImage} />
+          <img src={photo4} alt="" className={styles.firstImage} />
 
         </div>
       </div>
@@ -245,7 +249,7 @@ export const TopSection = () => (
         или Вы хотите сделать сюрприз?
       </h1>
 
-      <img src="src/assets/photo5.jpeg" alt="" className={styles.footerImage} />
+      <img src={photo5} alt="" className={styles.footerImage} />
 
       <span
         className={styles.call}
