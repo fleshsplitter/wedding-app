@@ -40,6 +40,7 @@
   border-radius: 20vw;
   width: 100%;
   max-height: 900px;
+  max-width: 557px;
 
   @include media.tablet {
     border-radius: 35vw;
@@ -230,7 +231,7 @@
   position: absolute;
   width: 26px;
   height: 26px;
-  top: 16%;
+  top: 19%;
   left: 42%;
 
   @media (max-width: 1250px) {
@@ -539,7 +540,9 @@
 }
 
 .footerHeader {
+  text-align: center;
   color: white;
+  width: 80%;
   margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;

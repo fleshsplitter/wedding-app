@@ -1,11 +1,19 @@
+html {
+  background: #F4FAFF;
+}
+
 #root {
-  /* width: 100%;
-  padding: 180px 10vw; */
   max-width: 100vw;
   overflow-x: hidden;
-  padding: 180px clamp(16px, 5vw, 40px);
+  padding: 180px 240px;
   padding-bottom: 0;
   text-align: center;
+}
+
+@media (max-width: 1650px) {
+  #root {
+  padding: 180px clamp(16px, 5vw, 40px);
+  }
 }
 
 @media (max-width: 768px) {
