@@ -9,7 +9,8 @@
     "lint:js": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "lint:style": "stylelint \"src/**/*.scss\" --fix",
     "lint": "tsc && npm run lint:js && npm run lint:style",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -32,6 +33,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
