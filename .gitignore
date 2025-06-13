@@ -1,0 +1,30 @@
+# зависимости
+node_modules/
+
+# сборка
+dist/
+
+# временные файлы Vite
+.vite/
+
+# временные файлы TypeScript
+*.tsbuildinfo
+node_modules/.tmp/
+
+# окружение
+.env
+.env.*.local
+
+# VS Code
+.vscode/
+
+# системные файлы macOS
+.DS_Store
+
+# логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# coverage (если используешь тесты)
+coverage/
